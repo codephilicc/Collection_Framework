@@ -14,13 +14,22 @@ public class hashset {
 		hs.add("jadeja");
 		hs.add("gill");
 
-		hs.forEach(x->System.out.println("players name: "+x));
+		hs.forEach(x -> System.out.println("players name: " + x));
 		
+		
+		hs.add("virat");
+		
+		hs.forEach(x->System.out.println("hs after adding virat again: "+x));
+		System.out.println("list contains sachin or not: "+hs.contains("sachin"));
+		
+		hs.remove("gill");
+		
+
 		Iterator<String> itr = hs.iterator();
-		while(itr.hasNext()) {
+		while (itr.hasNext()) {
 			System.out.println(itr.next());
 		}
-		
+
 	}
 
 }
