@@ -1,5 +1,6 @@
 package com.Collections.list;
 
+import java.util.Iterator;
 import java.util.LinkedHashSet;
 
 public class linkedhashset {
@@ -28,6 +29,25 @@ public class linkedhashset {
 
 		lhs.forEach(n -> System.out.println("after removing: " + n));
 
+		System.out.println(lhs.size());
+		System.out.println("Iscontain D: "+lhs.contains("D"));
+		System.out.println("Iscontain A: "+lhs.contains("A"));
+		
+		System.out.println("update linkedhashset: "+lhs);
+		
+//	Iterating
+		Iterator<String> itr = lhs.iterator();
+		while(itr.hasNext()) {
+			System.out.println("each element is: "+itr.next());
+		}
+		
+//		calling element by enhanced for loop
+		for(String s : lhs) {
+			System.out.println(s);
+			
+		}
+		
+		
 	}
 
 }
