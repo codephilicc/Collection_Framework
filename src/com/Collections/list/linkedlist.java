@@ -13,6 +13,8 @@ public class linkedlist {
 		lt.add("vivek");
 		lt.add("aman");
 		
+		lt.add(1, "vinay");
+		
 		lt.forEach(n->System.out.println("Names are: "+n));
 		
 		
