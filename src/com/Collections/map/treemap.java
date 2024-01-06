@@ -7,27 +7,30 @@ import java.util.Set;
 import java.util.TreeMap;
 
 public class treemap {
-
+//treemap follows sorting the key
 	public static void main(String[] args) {
 
-		TreeMap<String, Integer> tm =new TreeMap<>();
-		
+		TreeMap<String, Integer> tm = new TreeMap<>();
+
 		tm.put("cat", 3);
 		tm.put("bat", 5);
 		tm.put("apple", 1);
 		tm.put("xmas", 0);
-		
+
 		System.out.println(tm);
-		
+
 		Set<Entry<String, Integer>> treemap = tm.entrySet();
 		Iterator itr = treemap.iterator();
-		
-		while(itr.hasNext()) {
-		Map.Entry<String,Integer> map =(Entry<String, Integer>) itr.next();
-			System.out.println("key is: "+map.getKey()+" & "+"value is:"+map.getValue());
+
+		while (itr.hasNext()) {
+			Map.Entry<String, Integer> map = (Entry<String, Integer>) itr.next();
+			System.out.println("key is: " + map.getKey() + " & " + "value is:" + map.getValue());
 		}
-		
-		
+
 	}
 
 }
+
+/*
+ {phy=70, eng=60, maths=90, hindi=55}
+ */
