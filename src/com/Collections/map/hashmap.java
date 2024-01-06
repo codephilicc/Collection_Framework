@@ -31,3 +31,14 @@ public class hashmap {
 	}
 
 }
+
+/*
+ 4
+vivek
+false
+{0=aman, 2=vivek, 5=bob, 7=aman, 8=aman}
+value for key "8" is: aman
+
+ */
+
+
