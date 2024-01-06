@@ -33,3 +33,14 @@ public class hashset {
 	}
 
 }
+
+/*
+hs after adding virat again: sachin
+hs after adding virat again: rohit
+list contains sachin or not: true
+virat
+jadeja
+sachin
+rohit
+ */
+

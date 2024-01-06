@@ -51,3 +51,34 @@ public class linkedhashset {
 	}
 
 }
+
+/* OUTPUTS 
+ 
+ A
+E
+B
+O
+H
+C
+true
+false
+after removing: A
+after removing: B
+after removing: O
+after removing: H
+after removing: C
+5
+Iscontain D: false
+Iscontain A: true
+update linkedhashset: [A, B, O, H, C]
+each element is: A
+each element is: B
+each element is: O
+each element is: H
+each element is: C
+A
+B
+O
+H
+C
+ */

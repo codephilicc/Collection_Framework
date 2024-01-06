@@ -26,3 +26,14 @@ public class arraylist {
 	}
 
 }
+
+/*
+games are: kho-kho
+games are: kabaddi
+games are: crikcet
+games are: hockey
+kho-kho
+kabaddi
+crikcet
+hockey
+*/

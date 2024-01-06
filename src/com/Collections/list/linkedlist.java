@@ -25,3 +25,16 @@ public class linkedlist {
 	}
 
 }
+
+/*
+Names are: raju
+Names are: vinay
+Names are: amit
+Names are: vivek
+Names are: aman
+raju
+vinay
+amit
+vivek
+aman
+ */
