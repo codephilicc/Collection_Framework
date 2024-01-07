@@ -17,7 +17,7 @@ public class treemap {
 		tm.put("apple", 1);
 		tm.put("xmas", 0);
 
-		System.out.println(tm);
+		System.out.println(tm); 
 
 		Set<Entry<String, Integer>> treemap = tm.entrySet();
 		Iterator itr = treemap.iterator();
