@@ -22,10 +22,10 @@ class Main
 		return '\0'; 
 	} 
 
-//	public static void main (String[] args) 
-//	{ 
-//		String str = "geeksforgeeks"; 
-//		char[] arr = str.toCharArray(); 
-//		System.out.println(firstRepeating(arr)); 
-//	} 
+	public static void main (String[] args) 
+	{ 
+		String str = "geeksforgeeks"; 
+		char[] arr = str.toCharArray(); 
+		System.out.println(firstRepeating(arr)); 
+	} 
 } 
