@@ -18,7 +18,7 @@ class Main
 			else // Else add element to hash set 
 				h.add(c); 
 		} 
-
+ 
 		return '\0'; 
 	} 
 
