@@ -5,6 +5,7 @@ import java.util.Set;
 
 public class hashmap {
 
+
 	public static void main(String[] args) {
 
 		HashMap<Integer, String> map = new HashMap<>();
