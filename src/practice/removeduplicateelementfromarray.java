@@ -22,6 +22,7 @@ public class removeduplicateelementfromarray {
 			arr1[index++] = element;
 		}
 
+		
 		return uniqueElements.size();
 
 	}
